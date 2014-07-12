@@ -6,5 +6,8 @@ V 5.11
 | Long format VIEWSIM file for project C-OR21
 |
 DW C-OR21 1 371961221800
-M $1I1 OR2 ( ) Q A B
+M $1I11\$1I8 OR2 ( TPHL=3NS:6.3NS TPLH=3NS:6.6NS ) $1I11\Y $1I11\A $1I11\B
+= A $1I11\A
+= B $1I11\B
+= Q $1I11\Y
 WD

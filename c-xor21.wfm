@@ -3,7 +3,7 @@ $version
 $end
 
 $date
-    Mon Jul 07 11:22:37 2014
+    Sat Jul 12 13:45:28 2014
 $end
 $timescale
     100 ps
@@ -19,17 +19,14 @@ $enddefinitions $end
 #0
 0"
 0!
-#90
 0#
 #1000
 1"
-#1096
 1#
 #2000
 1!
 0"
 #3000
 1"
-#3124
 0#
 #4000
