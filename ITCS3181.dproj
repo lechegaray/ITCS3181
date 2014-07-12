@@ -32,7 +32,7 @@
       </section>
     </tool>
     <tool name="simLaunch">
-      <entry name="DesignName" value="c-xor21"/>
+      <entry name="DesignName" value="1-bitadder"/>
       <entry name="DelayTableFileName" value=""/>
       <entry name="FileOrDirectory" value=""/>
       <entry name="VariableFileName" value=""/>
