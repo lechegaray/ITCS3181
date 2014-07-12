@@ -3,4 +3,53 @@ V 5.2
 DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
 K 178469342500 4-bitadder
 DW 4-bitadder
+|Q ITCS3181:1-bitadder 1
+AS ITCS3181:1-bitadder PINORDER=A B CIN COUT SUM
+AS ITCS3181:1-bitadder INOV_VER_REC=18:39_7-12-14
+AS builtin:in PINORDER=IN
+AS builtin:in IN
+AP builtin:in 1 PINTYPE=IN
+AS builtin:out OUT
+AS builtin:out PINORDER=OUT
+AP builtin:out 1 PINTYPE=OUT
+W ITCS3181:1-bitadder $1I3
+I $1I3 ITCS3181:1-bitadder A1 B1 $1N32 $1N45 S1 
+|R 18:39_7-12-14
+W ITCS3181:1-bitadder $1I2
+I $1I2 ITCS3181:1-bitadder A2 B2 $1N45 $1N51 S2 
+|R 18:39_7-12-14
+W ITCS3181:1-bitadder $1I1
+I $1I1 ITCS3181:1-bitadder A3 B3 $1N51 COUT S3 
+|R 18:39_7-12-14
+P builtin:in B1
+I B1 builtin:in B1 
+P builtin:in B2
+I B2 builtin:in B2 
+P builtin:in B3
+I B3 builtin:in B3 
+P builtin:in B0
+I B0 builtin:in B0 
+P builtin:in CIN
+I CIN builtin:in CIN 
+P builtin:in A0
+I A0 builtin:in A0 
+P builtin:in A1
+I A1 builtin:in A1 
+P builtin:in A2
+I A2 builtin:in A2 
+P builtin:in A3
+I A3 builtin:in A3 
+P builtin:out S0
+I S0 builtin:out S0 
+P builtin:out S1
+I S1 builtin:out S1 
+P builtin:out S2
+I S2 builtin:out S2 
+P builtin:out S3
+I S3 builtin:out S3 
+P builtin:out COUT
+I COUT builtin:out COUT 
+W ITCS3181:1-bitadder $1I4
+I $1I4 ITCS3181:1-bitadder A0 B0 CIN $1N32 S0 
+|R 18:39_7-12-14
 EW

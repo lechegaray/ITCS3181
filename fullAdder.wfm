@@ -3,49 +3,31 @@ $version
 $end
 
 $date
-    Sat Jul 12 14:40:19 2014
+    Sat Jul 12 15:00:51 2014
 $end
 $timescale
     100 ps
 $end
 #0
-$var wire 1 ! A $end
+$var wire 1 ! CIN $end
 $dumpvars X! $end
-$var wire 1 " B $end
+$var wire 1 " COUT $end
 $dumpvars X" $end
-$var wire 1 # CIN $end
-$dumpvars X# $end
-$var wire 1 $ COUT $end
-$dumpvars X$ $end
 $enddefinitions $end
 #0
-0#
-0"
 0!
-#90
-0$
 #1000
-1#
-#2000
-1"
-0#
-#3000
-1#
-#3096
-1$
-#4000
 1!
-0#
-0"
-#4090
-0$
+#2000
+0!
+#3000
+1!
+#4000
+0!
 #5000
-1#
-#5096
-1$
+1!
 #6000
-1"
-0#
+0!
 #7000
-1#
+1!
 #8000
