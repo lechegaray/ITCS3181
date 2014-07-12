@@ -1,0 +1,46 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 274850669700 fulladder
+DW fulladder
+AS builtin:out OUT
+AS builtin:out PINORDER=OUT
+AP builtin:out 1 PINTYPE=OUT
+|Q ITCS3181:c-or21 1
+AS ITCS3181:c-or21 PINORDER=A B Q
+AS ITCS3181:c-or21 INOV_VER_REC=14:49_7-7-14
+|Q ITCS3181:c-and21 1
+AS ITCS3181:c-and21 PINORDER=A B Q
+AS ITCS3181:c-and21 INOV_VER_REC=14:44_7-7-14
+|Q ITCS3181:c-xor21 1
+AS ITCS3181:c-xor21 PINORDER=A B Q
+AS ITCS3181:c-xor21 INOV_VER_REC=15:14_7-7-14
+AS builtin:in PINORDER=IN
+AS builtin:in IN
+AP builtin:in 1 PINTYPE=IN
+P builtin:out Q
+I Q builtin:out Q 
+W ITCS3181:c-or21 $1I5
+I $1I5 ITCS3181:c-or21 $1N24 $1N22 COUT 
+|R 14:49_7-7-14
+W ITCS3181:c-and21 $1I2
+I $1I2 ITCS3181:c-and21 B A $1N22 
+|R 14:44_7-7-14
+W ITCS3181:c-and21 $1I4
+I $1I4 ITCS3181:c-and21 CIN $1N26 $1N24 
+|R 14:44_7-7-14
+W ITCS3181:c-xor21 $1I1
+I $1I1 ITCS3181:c-xor21 A B $1N26 
+|R 15:14_7-7-14
+W ITCS3181:c-xor21 $1I3
+I $1I3 ITCS3181:c-xor21 CIN $1N26 Q 
+|R 15:14_7-7-14
+P builtin:in CIN
+I CIN builtin:in CIN 
+P builtin:out COUT
+I COUT builtin:out COUT 
+P builtin:in A
+I A builtin:in A 
+P builtin:in B
+I B builtin:in B 
+EW

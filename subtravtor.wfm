@@ -1,0 +1,216 @@
+$version
+    Viewlogic Simulation .vwf version 1.0
+$end
+
+$date
+    Thu Jul 10 10:46:18 2014
+$end
+$timescale
+    100 ps
+$end
+#0
+$var wire 1 ! A0 $end
+$dumpvars X! $end
+$var wire 1 " A1 $end
+$dumpvars X" $end
+$var wire 1 # A2 $end
+$dumpvars X# $end
+$var wire 1 $ A3 $end
+$dumpvars X$ $end
+$var wire 1 % B1 $end
+$dumpvars X% $end
+$var wire 1 & B2 $end
+$dumpvars X& $end
+$var wire 1 ' B3 $end
+$dumpvars X' $end
+$var wire 1 ( CIN $end
+$dumpvars X( $end
+$var wire 1 ) SUM0 $end
+$dumpvars X) $end
+$var wire 1 * SUM1 $end
+$dumpvars X* $end
+$var wire 1 + SUM2 $end
+$dumpvars X+ $end
+$var wire 1 , SUM3 $end
+$dumpvars X, $end
+$var wire 1 - COUT $end
+$dumpvars X- $end
+$enddefinitions $end
+#0
+1(
+1'
+1$
+1!
+0&
+0%
+0#
+0"
+#1000
+1%
+1"
+#1220
+0+
+#1288
+1-
+#1316
+0,
+#1352
+1+
+#1394
+0-
+#1442
+1,
+#1482
+X+
+#1550
+X-
+#1578
+X,
+#2000
+0%
+0"
+#2318
+1+
+#2360
+0-
+#2408
+1,
+#2454
+X+
+#2522
+X-
+#2550
+X,
+#3000
+1%
+1"
+0'
+0$
+0!
+#3180
+0-
+#3220
+0+
+#3288
+1,
+#3330
+1-
+#3352
+1+
+#3358
+0,
+#3394
+0-
+#3442
+1,
+#3482
+X+
+#3550
+X-
+#3578
+X,
+#4000
+1&
+1#
+1!
+0%
+0"
+#4192
+1-
+#4214
+0+
+#4220
+0,
+#4304
+0-
+#4352
+1,
+#4358
+1+
+#4454
+X+
+#4522
+X-
+#4550
+X,
+#5000
+1%
+1"
+0(
+0!
+#5214
+0*
+#5220
+0+
+#5270
+0-
+#5318
+1,
+#5400
+1+
+#6000
+1(
+1'
+1$
+1!
+0&
+0%
+0#
+0"
+#6180
+0+
+#6192
+X*
+#6234
+1+
+#6358
+X+
+#6426
+X-
+#6454
+X,
+#7000
+1%
+1"
+0!
+#7220
+0+
+#7288
+1-
+#7316
+0,
+#7352
+1+
+#7394
+0-
+#7442
+1,
+#7482
+X+
+#7550
+X-
+#7578
+X,
+#8000
+1&
+1#
+1!
+0'
+0%
+0$
+0"
+#8180
+0-
+#8214
+0+
+#8228
+1,
+#8358
+1+
+#8454
+X+
+#8522
+X-
+#8550
+X,
+#9000

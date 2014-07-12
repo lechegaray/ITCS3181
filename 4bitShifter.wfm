@@ -1,0 +1,70 @@
+$version
+    Viewlogic Simulation .vwf version 1.0
+$end
+
+$date
+    Thu Jul 10 13:48:38 2014
+$end
+$timescale
+    100 ps
+$end
+#0
+$var wire 1 ! D0 $end
+$dumpvars X! $end
+$var wire 1 " D1 $end
+$dumpvars X" $end
+$var wire 1 # D2 $end
+$dumpvars X# $end
+$var wire 1 $ D3 $end
+$dumpvars X$ $end
+$var wire 1 % CIN $end
+$dumpvars X% $end
+$var wire 1 & S0 $end
+$dumpvars X& $end
+$var wire 1 ' S1 $end
+$dumpvars X' $end
+$var wire 1 ( S2 $end
+$dumpvars X( $end
+$var wire 1 ) S3 $end
+$dumpvars X) $end
+$enddefinitions $end
+#0
+1%
+1!
+0$
+0#
+0"
+#44
+0)
+0&
+#90
+0(
+#96
+1'
+#1000
+1"
+0!
+#1090
+0'
+#1096
+1(
+#2000
+1#
+0"
+#2048
+1)
+#2090
+0(
+#3000
+1$
+0#
+#3044
+0)
+#4000
+1"
+1!
+0$
+#4096
+1(
+1'
+#5000

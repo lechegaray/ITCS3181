@@ -1,0 +1,73 @@
+$version
+    Viewlogic Simulation .vwf version 1.0
+$end
+
+$date
+    Mon Jul 07 12:12:51 2014
+$end
+$timescale
+    100 ps
+$end
+#0
+$var wire 1 ! A $end
+$dumpvars X! $end
+$var wire 1 " B $end
+$dumpvars X" $end
+$var wire 1 # CIN $end
+$dumpvars X# $end
+$var wire 1 $ Q $end
+$dumpvars X$ $end
+$var wire 1 % COUT $end
+$dumpvars X% $end
+$enddefinitions $end
+#0
+0#
+0"
+0!
+#90
+0%
+#180
+0$
+#1000
+1#
+#1096
+1$
+#2000
+1"
+0#
+#2090
+0$
+#2192
+1$
+#3000
+1#
+#3096
+1%
+#3124
+0$
+#4000
+1!
+0#
+0"
+#4090
+0%
+#4138
+1$
+#5000
+1#
+#5096
+1%
+#5124
+0$
+#6000
+1"
+0#
+#6138
+1$
+#6214
+0$
+#7000
+1#
+#7096
+1$
+#8000

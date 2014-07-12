@@ -1,0 +1,55 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 244527238500 4bitadder
+DW 4bitadder
+|Q ITCS3181:fulladder 1
+AS ITCS3181:fulladder PINORDER=A B CIN COUT Q
+AS ITCS3181:fulladder INOV_VER_REC=16:05_7-7-14
+AS builtin:out OUT
+AS builtin:out PINORDER=OUT
+AP builtin:out 1 PINTYPE=OUT
+AS builtin:in PINORDER=IN
+AS builtin:in IN
+AP builtin:in 1 PINTYPE=IN
+W ITCS3181:fulladder $1I3
+I $1I3 ITCS3181:fulladder A1 B1 $1N28 $1N30 SUM1 
+|R 16:05_7-7-14
+W ITCS3181:fulladder $1I1
+I $1I1 ITCS3181:fulladder A3 B3 $1N32 COUT SUM3 
+|R 16:05_7-7-14
+P builtin:out COUT
+I COUT builtin:out COUT 
+P builtin:out SUM0
+I SUM0 builtin:out SUM0 
+P builtin:out SUM1
+I SUM1 builtin:out SUM1 
+P builtin:out SUM2
+I SUM2 builtin:out SUM2 
+P builtin:out SUM3
+I SUM3 builtin:out SUM3 
+P builtin:in CIN
+I CIN builtin:in CIN 
+W ITCS3181:fulladder $1I2
+I $1I2 ITCS3181:fulladder A2 B2 $1N30 $1N32 SUM2 
+|R 16:05_7-7-14
+P builtin:in A0
+I A0 builtin:in A0 
+P builtin:in A1
+I A1 builtin:in A1 
+P builtin:in A2
+I A2 builtin:in A2 
+P builtin:in A3
+I A3 builtin:in A3 
+P builtin:in B0
+I B0 builtin:in B0 
+P builtin:in B1
+I B1 builtin:in B1 
+P builtin:in B2
+I B2 builtin:in B2 
+P builtin:in B3
+I B3 builtin:in B3 
+W ITCS3181:fulladder $1I4
+I $1I4 ITCS3181:fulladder A0 B0 CIN $1N28 SUM0 
+|R 16:05_7-7-14
+EW

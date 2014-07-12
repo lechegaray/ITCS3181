@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<projectfile version="1.0" name="ITCS3181">
+  <settings>
+    <tool name="Library Manager Central Library">
+      <section name="Properties">
+        <entry name="Path" value=""/>
+      </section>
+    </tool>
+    <tool name="Flow Manager">
+      <section name="Flows">
+        <entry name="{7F752E6D-B6AE-4dfd-9506-F74496DB70EE}" value=""/>
+        <entry name="{96B494EB-6952-480d-A817-AC4FA899FEEE}" value=""/>
+        <entry name="{ABF09658-79CB-4540-A0EE-DFBDD2259BB6}" value=""/>
+      </section>
+    </tool>
+    <tool name="Expedition PCB">
+      <section name="Properties">
+        <entry name="Zoom Style" value="Disable"/>
+        <entry name="Keybindings" value="Disable"/>
+        <entry name="Layout Template" value=""/>
+        <entry name="Configuration File" value="expedition.cfg"/>
+        <entry name="Allow Forward Annotation" value="Enable"/>
+        <entry name="Allow Back Annotation" value="Enable"/>
+        <entry name="Project File" value=""/>
+        <entry name="Constrain in CES" value="Disable"/>
+      </section>
+    </tool>
+    <tool name="DxBoardLink">
+      <section name="Properties">
+        <entry name="Unlimited Text Length" value="Enable"/>
+        <entry name="Mixed Case For FPGA Attributes" value="Enable"/>
+      </section>
+    </tool>
+    <tool name="simLaunch">
+      <entry name="DesignName" value="c-xor21"/>
+      <entry name="DelayTableFileName" value=""/>
+      <entry name="FileOrDirectory" value=""/>
+      <entry name="VariableFileName" value=""/>
+      <entry name="CommandFileName" value=""/>
+      <entry name="Levels" value=""/>
+      <entry name="CommandLineOptions" value=""/>
+      <entry name="ExpandBusses" value="0"/>
+      <entry name="CreateGenerics" value="0"/>
+      <entry name="CreateINOUTs" value="0"/>
+      <entry name="CreateConfigurationFile" value="0"/>
+      <entry name="PromoteAttribute" value="0"/>
+      <entry name="NetListFormat" value="0"/>
+      <entry name="CombineHETEROSymbols" value="0"/>
+    </tool>
+  </settings>
+</projectfile>

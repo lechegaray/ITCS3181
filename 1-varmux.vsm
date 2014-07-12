@@ -1,0 +1,39 @@
+V 5.11
+|
+| Wirelist created using VIEWSIM WIRELISTER 6.08
+| Using initialization file 'c:\mentorgraphics\2004\standard\vsm.ini'
+|    Using 24 attribute filter(s)
+| Long format VIEWSIM file for project 1-VARMUX
+|
+DW 1-VARMUX 4 116893762700
+M $1I11\$1I6\$1I5 NOT ( TPHL=1.5NS:5.3NS TPLH=2.4NS:6NS ) $1I11\$1I6\Y +
+ $1I11\$1I6\A
+M $1I12\$1I8\$1I8 OR2 ( TPHL=3NS:6.3NS TPLH=3NS:6.6NS ) $1I12\$1I8\Y +
+ $1I12\$1I8\A $1I12\$1I8\B
+M $1I8\$1I9\$1I8 AND2 ( TPHL=2.5NS:6.3NS TPLH=3NS:6.6NS ) $1I8\$1I9\Y +
+ $1I8\$1I9\A $1I8\$1I9\B
+M $1I9\$1I9\$1I8 AND2 ( TPHL=2.5NS:6.3NS TPLH=3NS:6.6NS ) $1I9\$1I9\Y +
+ $1I9\$1I9\A $1I9\$1I9\B
+= $1N22 $1I11\Q
+= $1N22 $1I11\$1I6\Y
+= $1N22 $1I8\B
+= $1N22 $1I8\$1I9\B
+= $1N25 $1I9\Q
+= $1N25 $1I9\$1I9\Y
+= $1N25 $1I12\B
+= $1N25 $1I12\$1I8\B
+= $1N27 $1I8\Q
+= $1N27 $1I8\$1I9\Y
+= $1N27 $1I12\A
+= $1N27 $1I12\$1I8\A
+= I0 $1I8\A
+= I0 $1I8\$1I9\A
+= I1 $1I9\A
+= I1 $1I9\$1I9\A
+= OUT $1I12\Q
+= OUT $1I12\$1I8\Y
+= S0 $1I11\A
+= S0 $1I11\$1I6\A
+= S0 $1I9\B
+= S0 $1I9\$1I9\B
+WD
