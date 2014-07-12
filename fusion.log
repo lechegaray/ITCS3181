@@ -1,14 +1,10 @@
 | Command used:
-| c:\mentorgraphics\2004\sim\fusion\win32\bin\fusion.exe -vsm 4-inputShifter.vsm -cmd 4bitShifter.cmd 
+| c:\mentorgraphics\2004\sim\fusion\win32\bin\fusion.exe -vsm c-and21.vsm -cmd c-and21.cmd 
 |
 | Typical delays in use.
 | All delays scaled by 1.
 | Design processing complete.
 | Simulation time rolled back to 0.0ns.
 | [I] Starting Vwaves process: ....
-| Simulation stopped at 500.0ns.
-sdisplay $1N58 $1N72 D1 S0 D2 S1 $1N60 D3 S2 S3 $1N69 CIN $1N23 D0 
-sdisplay $1N58 $1N72 D1 S0 D2 S1 $1N60 D3 S2 S3 $1N69 CIN $1N23 D0 
-sdisplay $1N58 $1N72 D1 S0 D2 S1 $1N60 D3 S2 S3 $1N69 CIN $1N23 D0 
-sdisplay $1N58 $1N72 D1 S0 D2 S1 $1N60 D3 S2 S3 $1N69 CIN $1N23 D0 
-| [I] Closing ITC connection with the waveform tool(PID 5140)
+| Simulation stopped at 400.0ns.
+sdisplay A B Q 

@@ -3,73 +3,29 @@ $version
 $end
 
 $date
-    Thu Jul 10 10:27:05 2014
+    Sat Jul 12 13:19:53 2014
 $end
 $timescale
     100 ps
 $end
 #0
-$var wire 1 ! B0 $end
+$var wire 1 ! A $end
 $dumpvars X! $end
-$var wire 1 " B1 $end
+$var wire 1 " B $end
 $dumpvars X" $end
-$var wire 1 # B2 $end
+$var wire 1 # Q $end
 $dumpvars X# $end
-$var wire 1 $ B3 $end
-$dumpvars X$ $end
-$var wire 1 % CIN $end
-$dumpvars X% $end
-$var wire 1 & Q0 $end
-$dumpvars X& $end
-$var wire 1 ' Q1 $end
-$dumpvars X' $end
-$var wire 1 ( Q2 $end
-$dumpvars X( $end
-$var wire 1 ) Q3 $end
-$dumpvars X) $end
 $enddefinitions $end
 #0
-1%
-1#
-1!
-0$
 0"
-#124
-0(
-0&
-#138
-1)
-1'
+0!
+0#
 #1000
 1"
-0%
-0!
-#1090
-0)
-#1138
-1(
 #2000
-1%
-1$
 1!
-0#
 0"
 #3000
 1"
-0!
-#3124
-0'
-#3138
-1&
-#4000
 1#
-1!
-0$
-0"
-#4124
-0(
-0&
-#4138
-1)
-1'
-#5000
+#4000
