@@ -1,12 +1,2 @@
-vdraw: Error 5237: 1-bitadder.1 com SUM: Schematic pin SUM at (1170, 710) is in schematic but not in corresponding symbol.
-vdraw: Error 5237: 1-bitadder.1 com COUT: Schematic pin COUT at (1170, 500) is in schematic but not in corresponding symbol.
-vdraw: Error 5237: 1-bitadder.1 com A: Schematic pin A at (520, 750) is in schematic but not in corresponding symbol.
-vdraw: Error 5237: 1-bitadder.1 com B: Schematic pin B at (520, 730) is in schematic but not in corresponding symbol.
-vdraw: Error 5237: 1-bitadder.1 com CIN: Schematic pin CIN at (520, 670) is in schematic but not in corresponding symbol.
 vdraw: Note 1138: Pin already connected to net
 vdraw: Note 1138: Pin already connected to net
-vdraw: Note 1066: Cannot short net
-vdraw: Note 1066: Cannot short net
-vdraw: Note 1138: Pin already connected to net
-vdraw: Note 1063: No connection point found
-vdraw: Error 1093: Both pin points the same
