@@ -1,0 +1,9 @@
+vdraw: Error 5231: c-or21.1 com $?: Unnamed schematic pin at (710,580).
+vdraw: Error 5231: c-or21.1 com $?: Unnamed schematic pin at (920,600).
+vdraw: Error 5231: c-or21.1 com $?: Unnamed schematic pin at (710,630).
+vdraw: Error 5237: c-or21.1 com $?: Schematic pin $? at (710, 580) is in schematic but not in corresponding symbol.
+vdraw: Error 5237: c-or21.1 com $?: Schematic pin $? at (920, 600) is in schematic but not in corresponding symbol.
+vdraw: Error 5237: c-or21.1 com $?: Schematic pin $? at (710, 630) is in schematic but not in corresponding symbol.
+vdraw: Warning 5248: Pin A does not appear in ITCS3181:c-or21.1
+vdraw: Warning 5248: Pin B does not appear in ITCS3181:c-or21.1
+vdraw: Warning 5248: Pin Q does not appear in ITCS3181:c-or21.1
