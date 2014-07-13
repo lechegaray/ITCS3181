@@ -9,31 +9,31 @@ AS ITCS3181:c-or21 INOV_VER_REC=14:49_7-7-14
 |Q ITCS3181:c-and21 1
 AS ITCS3181:c-and21 PINORDER=A B Q
 AS ITCS3181:c-and21 INOV_VER_REC=14:44_7-7-14
-AS builtin:in PINORDER=IN
-AS builtin:in IN
-AP builtin:in 1 PINTYPE=IN
 |Q ITCS3181:c-not1 1
 AS ITCS3181:c-not1 PINORDER=A Q
 AS ITCS3181:c-not1 INOV_VER_REC=14:59_7-7-14
+AS builtin:in PINORDER=IN
+AS builtin:in IN
+AP builtin:in 1 PINTYPE=IN
 AS builtin:out OUT
 AS builtin:out PINORDER=OUT
 AP builtin:out 1 PINTYPE=OUT
-W ITCS3181:c-or21 $1I12
-I $1I12 ITCS3181:c-or21 $1N27 $1N25 OUT 
+W ITCS3181:c-or21 $1I3
+I $1I3 ITCS3181:c-or21 $1N19 $1N21 OUT 
 |R 14:49_7-7-14
-W ITCS3181:c-and21 $1I9
-I $1I9 ITCS3181:c-and21 I1 S0 $1N25 
+W ITCS3181:c-and21 $1I2
+I $1I2 ITCS3181:c-and21 D1 S0 $1N21 
 |R 14:44_7-7-14
-W ITCS3181:c-and21 $1I8
-I $1I8 ITCS3181:c-and21 I0 $1N22 $1N27 
+W ITCS3181:c-and21 $1I1
+I $1I1 ITCS3181:c-and21 D0 $1N17 $1N19 
 |R 14:44_7-7-14
-P builtin:in I1
-I I1 builtin:in I1 
-P builtin:in I0
-I I0 builtin:in I0 
-W ITCS3181:c-not1 $1I11
-I $1I11 ITCS3181:c-not1 S0 $1N22 
+W ITCS3181:c-not1 $1I4
+I $1I4 ITCS3181:c-not1 S0 $1N17 
 |R 14:59_7-7-14
+P builtin:in D0
+I D0 builtin:in D0 
+P builtin:in D1
+I D1 builtin:in D1 
 P builtin:in S0
 I S0 builtin:in S0 
 P builtin:out OUT

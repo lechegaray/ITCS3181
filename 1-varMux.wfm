@@ -3,15 +3,15 @@ $version
 $end
 
 $date
-    Thu Jul 10 12:05:11 2014
+    Sun Jul 13 10:06:40 2014
 $end
 $timescale
     100 ps
 $end
 #0
-$var wire 1 ! I0 $end
+$var wire 1 ! D0 $end
 $dumpvars X! $end
-$var wire 1 " I1 $end
+$var wire 1 " D1 $end
 $dumpvars X" $end
 $var wire 1 # S0 $end
 $dumpvars X# $end
