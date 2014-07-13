@@ -1,28 +1,13 @@
 | Command used:
-| c:\mentorgraphics\2004\sim\fusion\win32\bin\fusion.exe -vsm addsubbuiltin.vsm -cmd subtractor.cmd 
+| c:\mentorgraphics\2004\sim\fusion\win32\bin\fusion.exe -vsm 1-bitadder.vsm -cmd fullAdder.cmd 
 |
 | Typical delays in use.
 | All delays scaled by 1.
 | Design processing complete.
 | Simulation time rolled back to 0.0ns.
 | [I] Starting Vwaves process: ....
-| Simulation stopped at 1200.0ns.
-sdisplay $1N58 $1N54 A1 B1 S0 COUT A2 B2 S1 $1N51 A3 B3 S2 $1N47 S3 $1N56 CIN A0 B0 $1N49 $1N45 
-sdisplay $1N58 $1N54 A1 B1 S0 COUT A2 B2 S1 $1N51 A3 B3 S2 $1N47 S3 $1N56 CIN A0 B0 $1N49 $1N45 
-sdisplay $1N58 $1N54 A1 B1 S0 COUT A2 B2 S1 $1N51 A3 B3 S2 $1N47 S3 $1N56 CIN A0 B0 $1N49 $1N45 
-sdisplay $1N58 $1N54 A1 B1 S0 COUT A2 B2 S1 $1N51 A3 B3 S2 $1N47 S3 $1N56 CIN A0 B0 $1N49 $1N45 
-sdisplay $1N58 $1N54 A1 B1 S0 COUT A2 B2 S1 $1N51 A3 B3 S2 $1N47 S3 $1N56 CIN A0 B0 $1N49 $1N45 
-sdisplay $1N58 $1N54 A1 B1 S0 COUT A2 B2 S1 $1N51 A3 B3 S2 $1N47 S3 $1N56 CIN A0 B0 $1N49 $1N45 
-sdisplay $1N58 $1N54 A1 B1 S0 COUT A2 B2 S1 $1N51 A3 B3 S2 $1N47 S3 $1N56 CIN A0 B0 $1N49 $1N45 
-sdisplay $1N58 $1N54 A1 B1 S0 COUT A2 B2 S1 $1N51 A3 B3 S2 $1N47 S3 $1N56 CIN A0 B0 $1N49 $1N45 
-sdisplay $1N58 $1N54 A1 B1 S0 COUT A2 B2 S1 $1N51 A3 B3 S2 $1N47 S3 $1N56 CIN A0 B0 $1N49 $1N45 
-sdisplay $1N58 $1N54 A1 B1 S0 COUT A2 B2 S1 $1N51 A3 B3 S2 $1N47 S3 $1N56 CIN A0 B0 $1N49 $1N45 
-sdisplay $1N58 $1N54 A1 B1 S0 COUT A2 B2 S1 $1N51 A3 B3 S2 $1N47 S3 $1N56 CIN A0 B0 $1N49 $1N45 
-sdisplay $1N58 $1N54 A1 B1 S0 COUT A2 B2 S1 $1N51 A3 B3 S2 $1N47 S3 $1N56 CIN A0 B0 $1N49 $1N45 
-sdisplay $1N58 $1N54 A1 B1 S0 COUT A2 B2 S1 $1N51 A3 B3 S2 $1N47 S3 $1N56 CIN A0 B0 $1N49 $1N45 
-sdisplay $1N58 $1N54 A1 B1 S0 COUT A2 B2 S1 $1N51 A3 B3 S2 $1N47 S3 $1N56 CIN A0 B0 $1N49 $1N45 
-sdisplay $1N58 $1N54 A1 B1 S0 COUT A2 B2 S1 $1N51 A3 B3 S2 $1N47 S3 $1N56 CIN A0 B0 $1N49 $1N45 
-sdisplay $1N58 $1N54 A1 B1 S0 COUT A2 B2 S1 $1N51 A3 B3 S2 $1N47 S3 $1N56 CIN A0 B0 $1N49 $1N45 
-sdisplay $1N58 $1N54 A1 B1 S0 COUT A2 B2 S1 $1N51 A3 B3 S2 $1N47 S3 $1N56 CIN A0 B0 $1N49 $1N45 
-sdisplay $1N58 $1N54 A1 B1 S0 COUT A2 B2 S1 $1N51 A3 B3 S2 $1N47 S3 $1N56 CIN A0 B0 $1N49 $1N45 
-| [I] Closing ITC connection with the waveform tool(PID 7624)
+| Simulation stopped at 800.0ns.
+sdisplay COUT SUM $1N43 A B CIN $1N113 $1N53 
+sdisplay COUT SUM $1N43 A B CIN $1N113 $1N53 
+sdisplay COUT SUM $1N43 A B CIN $1N113 $1N53 
+sdisplay COUT SUM $1N43 A B CIN $1N113 $1N53 

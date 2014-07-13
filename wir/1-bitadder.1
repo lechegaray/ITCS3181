@@ -3,31 +3,27 @@ V 5.2
 DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
 K 241934812800 1-bitadder
 DW 1-bitadder
-|Q builtin:and2 1
-AS builtin:and2 PINORDER=Q A B
-AP builtin:and2 1 PINTYPE=OUT
-AP builtin:and2 2 PINTYPE=IN
-AP builtin:and2 3 PINTYPE=IN
-|Q builtin:xor2 1
-AS builtin:xor2 PINORDER=Q A B
-AP builtin:xor2 1 PINTYPE=OUT
-AP builtin:xor2 2 PINTYPE=IN
-AP builtin:xor2 3 PINTYPE=IN
+|Q ITCS3181:c-and21 1
+AS ITCS3181:c-and21 PINORDER=A B Q
+AS ITCS3181:c-and21 INOV_VER_REC=14:44_7-7-14
+|Q ITCS3181:c-xor21 1
+AS ITCS3181:c-xor21 PINORDER=A B Q
+AS ITCS3181:c-xor21 INOV_VER_REC=15:14_7-7-14
 AS builtin:out OUT
 AS builtin:out PINORDER=OUT
 AP builtin:out 1 PINTYPE=OUT
 AS builtin:in PINORDER=IN
 AS builtin:in IN
 AP builtin:in 1 PINTYPE=IN
-|Q builtin:or2 1
-AS builtin:or2 PINORDER=Q A B
-AP builtin:or2 1 PINTYPE=OUT
-AP builtin:or2 2 PINTYPE=IN
-AP builtin:or2 3 PINTYPE=IN
-M builtin:and2 $1I94
-I $1I94 builtin:and2 $1N55 A B 
-M builtin:xor2 $1I92
-I $1I92 builtin:xor2 SUM $1N43 CIN 
+|Q ITCS3181:c-or21 1
+AS ITCS3181:c-or21 PINORDER=A B Q
+AS ITCS3181:c-or21 INOV_VER_REC=14:49_7-7-14
+W ITCS3181:c-and21 $1I112
+I $1I112 ITCS3181:c-and21 A B $1N113 
+|R 14:44_7-7-14
+W ITCS3181:c-xor21 $1I103
+I $1I103 ITCS3181:c-xor21 $1N43 CIN SUM 
+|R 15:14_7-7-14
 P builtin:out SUM
 I SUM builtin:out SUM 
 P builtin:out COUT
@@ -38,10 +34,13 @@ P builtin:in B
 I B builtin:in B 
 P builtin:in CIN
 I CIN builtin:in CIN 
-M builtin:xor2 $1I88
-I $1I88 builtin:xor2 $1N43 A B 
-M builtin:and2 $1I89
-I $1I89 builtin:and2 $1N53 $1N43 CIN 
-M builtin:or2 $1I90
-I $1I90 builtin:or2 COUT $1N53 $1N55 
+W ITCS3181:c-xor21 $1I101
+I $1I101 ITCS3181:c-xor21 A B $1N43 
+|R 15:14_7-7-14
+W ITCS3181:c-and21 $1I106
+I $1I106 ITCS3181:c-and21 $1N43 CIN $1N53 
+|R 14:44_7-7-14
+W ITCS3181:c-or21 $1I117
+I $1I117 ITCS3181:c-or21 $1N53 $1N113 COUT 
+|R 14:49_7-7-14
 EW
