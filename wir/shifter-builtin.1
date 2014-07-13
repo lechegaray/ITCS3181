@@ -1,0 +1,62 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 161496875400 shifter-builtin
+DW shifter-builtin
+|Q builtin:or2 1
+AS builtin:or2 PINORDER=Q A B
+AP builtin:or2 1 PINTYPE=OUT
+AP builtin:or2 2 PINTYPE=IN
+AP builtin:or2 3 PINTYPE=IN
+|Q builtin:and2 1
+AS builtin:and2 PINORDER=Q A B
+AP builtin:and2 1 PINTYPE=OUT
+AP builtin:and2 2 PINTYPE=IN
+AP builtin:and2 3 PINTYPE=IN
+AS builtin:in PINORDER=IN
+AS builtin:in IN
+AP builtin:in 1 PINTYPE=IN
+AS builtin:out OUT
+AS builtin:out PINORDER=OUT
+AP builtin:out 1 PINTYPE=OUT
+|Q builtin:not 1
+AS builtin:not PINORDER=QN A
+AP builtin:not 1 PINTYPE=OUT
+AP builtin:not 2 PINTYPE=IN
+M builtin:or2 $1I112
+I $1I112 builtin:or2 S2 $1N80 $1N61 
+M builtin:and2 $1I96
+I $1I96 builtin:and2 $1N80 D3 $1N38 
+M builtin:and2 $1I95
+I $1I95 builtin:and2 S3 C0 D2 
+M builtin:and2 $1I94
+I $1I94 builtin:and2 $1N65 D2 $1N38 
+M builtin:and2 $1I93
+I $1I93 builtin:and2 $1N61 C0 D1 
+M builtin:and2 $1I92
+I $1I92 builtin:and2 S0 D1 $1N38 
+P builtin:in C0
+I C0 builtin:in C0 
+P builtin:in D0
+I D0 builtin:in D0 
+P builtin:in D1
+I D1 builtin:in D1 
+P builtin:in D2
+I D2 builtin:in D2 
+P builtin:in D3
+I D3 builtin:in D3 
+P builtin:out S0
+I S0 builtin:out S0 
+P builtin:out S1
+I S1 builtin:out S1 
+P builtin:out S2
+I S2 builtin:out S2 
+P builtin:out S3
+I S3 builtin:out S3 
+M builtin:not $1I88
+I $1I88 builtin:not $1N38 C0 
+M builtin:and2 $1I87
+I $1I87 builtin:and2 $1N58 C0 D0 
+M builtin:or2 $1I86
+I $1I86 builtin:or2 S1 $1N65 $1N58 
+EW

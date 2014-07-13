@@ -32,7 +32,7 @@
       </section>
     </tool>
     <tool name="simLaunch">
-      <entry name="DesignName" value="1-bitadder"/>
+      <entry name="DesignName" value="4-inputexpandableshifter"/>
       <entry name="DelayTableFileName" value=""/>
       <entry name="FileOrDirectory" value=""/>
       <entry name="VariableFileName" value=""/>

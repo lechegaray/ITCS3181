@@ -1,13 +1,10 @@
 | Command used:
-| c:\mentorgraphics\2004\sim\fusion\win32\bin\fusion.exe -vsm 1-bitadder.vsm -cmd fullAdder.cmd 
+| c:\mentorgraphics\2004\sim\fusion\win32\bin\fusion.exe -vsm shifter-builtin.vsm -cmd 4bitShifter.cmd 
 |
 | Typical delays in use.
 | All delays scaled by 1.
 | Design processing complete.
 | Simulation time rolled back to 0.0ns.
 | [I] Starting Vwaves process: ....
-| Simulation stopped at 800.0ns.
-sdisplay COUT SUM $1N43 A B CIN $1N113 $1N53 
-sdisplay COUT SUM $1N43 A B CIN $1N113 $1N53 
-sdisplay COUT SUM $1N43 A B CIN $1N113 $1N53 
-sdisplay COUT SUM $1N43 A B CIN $1N113 $1N53 
+| Simulation stopped at 1600.0ns.
+sdisplay $1N58 S0 D1 D2 S1 D3 S2 $1N38 S3 $1N65 $1N61 $1N80 C0 D0 
