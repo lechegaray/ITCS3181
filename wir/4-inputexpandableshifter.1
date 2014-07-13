@@ -1,0 +1,66 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 198744665000 4-inputexpandableshifter
+DW 4-inputexpandableshifter
+|Q ITCS3181:c-and21 1
+AS ITCS3181:c-and21 PINORDER=A B Q
+AS ITCS3181:c-and21 INOV_VER_REC=14:44_7-7-14
+|Q ITCS3181:c-not1 1
+AS ITCS3181:c-not1 PINORDER=A Q
+AS ITCS3181:c-not1 INOV_VER_REC=14:59_7-7-14
+AS builtin:in PINORDER=IN
+AS builtin:in IN
+AP builtin:in 1 PINTYPE=IN
+|Q ITCS3181:c-or21 1
+AS ITCS3181:c-or21 PINORDER=A B Q
+AS ITCS3181:c-or21 INOV_VER_REC=14:49_7-7-14
+AS builtin:out OUT
+AS builtin:out PINORDER=OUT
+AP builtin:out 1 PINTYPE=OUT
+W ITCS3181:c-and21 $1I20
+I $1I20 ITCS3181:c-and21 D2 $1N38 $1N65 
+|R 14:44_7-7-14
+W ITCS3181:c-and21 $1I21
+I $1I21 ITCS3181:c-and21 C0 D2 S3 
+|R 14:44_7-7-14
+W ITCS3181:c-and21 $1I22
+I $1I22 ITCS3181:c-and21 D3 $1N38 $1N80 
+|R 14:44_7-7-14
+W ITCS3181:c-and21 $1I17
+I $1I17 ITCS3181:c-and21 C0 D0 $1N58 
+|R 14:44_7-7-14
+W ITCS3181:c-and21 $1I18
+I $1I18 ITCS3181:c-and21 D1 $1N38 S0 
+|R 14:44_7-7-14
+W ITCS3181:c-not1 $1I15
+I $1I15 ITCS3181:c-not1 C0 $1N38 
+|R 14:59_7-7-14
+P builtin:in C0
+I C0 builtin:in C0 
+P builtin:in D0
+I D0 builtin:in D0 
+P builtin:in D1
+I D1 builtin:in D1 
+P builtin:in D2
+I D2 builtin:in D2 
+P builtin:in D3
+I D3 builtin:in D3 
+W ITCS3181:c-and21 $1I19
+I $1I19 ITCS3181:c-and21 C0 D1 $1N61 
+|R 14:44_7-7-14
+W ITCS3181:c-or21 $1I66
+I $1I66 ITCS3181:c-or21 $1N65 $1N58 S1 
+|R 14:49_7-7-14
+W ITCS3181:c-or21 $1I67
+I $1I67 ITCS3181:c-or21 $1N80 $1N61 S2 
+|R 14:49_7-7-14
+P builtin:out S0
+I S0 builtin:out S0 
+P builtin:out S1
+I S1 builtin:out S1 
+P builtin:out S2
+I S2 builtin:out S2 
+P builtin:out S3
+I S3 builtin:out S3 
+EW

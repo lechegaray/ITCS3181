@@ -1,21 +1,15 @@
 | Command used:
-| c:\mentorgraphics\2004\sim\fusion\win32\bin\fusion.exe -vsm 2-varMux.vsm -cmd 2-varMux.cmd 
+| c:\mentorgraphics\2004\sim\fusion\win32\bin\fusion.exe -vsm 4-inputExpandableShifter.vsm -cmd 4bitShifter.cmd 
 |
 | Typical delays in use.
 | All delays scaled by 1.
 | Design processing complete.
 | Simulation time rolled back to 0.0ns.
 | [I] Starting Vwaves process: ....
-| (2-varMux.cmd,2): Cannot find node or vector I0.
-| (2-varMux.cmd,2): Cannot find node or vector I1.
-| (2-varMux.cmd,2): Cannot find node or vector I2.
-| (2-varMux.cmd,2): Cannot find node or vector I3.
-| (2-varMux.cmd,3): Cannot find node or vector I0.
-| (2-varMux.cmd,4): Cannot find node or vector I1.
-| (2-varMux.cmd,5): Cannot find node or vector I2.
-| (2-varMux.cmd,6): Cannot find node or vector I3.
-| Simulation stopped at 400.0ns.
-sdisplay D1 S0 D2 S1 OUT D3 $1N38 $1N36 D0 
-sdisplay D1 S0 D2 S1 OUT D3 $1N38 $1N36 D0 
-| [I] Closing ITC connection with the waveform tool(PID 3436)
-sdisplay D1 S0 D2 S1 OUT D3 $1N38 $1N36 D0 
+| (4bitShifter.cmd,2): Cannot find node or vector C.
+| Simulation stopped at 500.0ns.
+sdisplay $1N58 S0 D1 D2 S1 D3 S2 $1N38 S3 $1N65 $1N61 $1N80 C0 D0 
+sdisplay $1N58 S0 D1 D2 S1 D3 S2 $1N38 S3 $1N65 $1N61 $1N80 C0 D0 
+| [I] Closing ITC connection with the waveform tool(PID 7464)
+sdisplay $1N58 S0 D1 D2 S1 D3 S2 $1N38 S3 $1N65 $1N61 $1N80 C0 D0 
+sdisplay $1N58 S0 D1 D2 S1 D3 S2 $1N38 S3 $1N65 $1N61 $1N80 C0 D0 

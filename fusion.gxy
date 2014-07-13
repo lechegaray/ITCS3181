@@ -12,7 +12,7 @@ FG Color Enable7=0
 FG Color Enable8=0
 Horizontal Zoom Factor=0
 Window Placement=2C0000000000000001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF420100009F060000E8020000EB
-Splitter Width=131
+Splitter Width=125
 Standard ToolBar=1
 Zoom ToolBar=1
 Status Bar=1
@@ -59,7 +59,7 @@ FG Color 8=255 255 255
 WaveTextColor=1
 [VCD Browser]
 Window Placement=2C0000000000000001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB8020000190000001A060000DF000000EF
-Splitter Width=511
+Splitter Width=505
 Tool Bar=0
 Status Bar=0
 [Console]
@@ -76,7 +76,7 @@ Viewer ToolBar=1
 Scope History ToolBar=1
 Status Bar=1
 [Navigator]
-Window Placement=2C0000000000000001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF52010000960000005204000056040000B6
+Window Placement=2C0000000000000001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF61020000A00000006105000060040000EA
 Splitter Width=0
 Command ToolBar=1
 Signal ToolBar=1
@@ -123,3 +123,5 @@ Trace List File=4bitShifter.wfm.tra
 Trace List File=complement.wfm.tra
 [4-bitadder.wfm]
 Trace List File=4-bitadder.wfm.tra
+[4-inputExpandableShifter.wfm]
+Trace List File=4-inputExpandableShifter.wfm.tra
