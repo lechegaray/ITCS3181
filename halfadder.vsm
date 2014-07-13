@@ -1,0 +1,11 @@
+V 5.11
+|
+| Wirelist created using VIEWSIM WIRELISTER 6.08
+| Using initialization file 'c:\mentorgraphics\2004\standard\vsm.ini'
+|    Using 24 attribute filter(s)
+| Long format VIEWSIM file for project HALFADDER
+|
+DW HALFADDER 2 207809223700
+M $1I18 XOR2 ( ) SUM D0 D1
+M $1I20 AND2 ( ) C0 D1 D0
+WD

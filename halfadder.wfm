@@ -3,33 +3,34 @@ $version
 $end
 
 $date
-    Sun Jul 13 13:17:20 2014
+    Sun Jul 13 12:52:38 2014
 $end
 $timescale
     100 ps
 $end
 #0
-$var wire 1 ! A $end
+$var wire 1 ! D0 $end
 $dumpvars X! $end
-$var wire 1 " B $end
+$var wire 1 " D1 $end
 $dumpvars X" $end
-$var wire 1 # Q $end
+$var wire 1 # SUM $end
 $dumpvars X# $end
+$var wire 1 $ C0 $end
+$dumpvars X$ $end
 $enddefinitions $end
 #0
 0"
 0!
-#90
+0$
 0#
 #1000
 1"
-#1096
 1#
 #2000
 1!
 0"
 #3000
 1"
-#3124
+1$
 0#
 #4000

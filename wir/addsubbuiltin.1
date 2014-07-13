@@ -1,35 +1,32 @@
 | Wirelist created using version 5.2.
 V 5.2
 DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
-K 97579618790 adder-subtractor
-DW adder-subtractor
+K 421298985400 addsubbuiltin
+DW addsubbuiltin
+|Q builtin:xor2 1
+AS builtin:xor2 PINORDER=Q A B
+AP builtin:xor2 1 PINTYPE=OUT
+AP builtin:xor2 2 PINTYPE=IN
+AP builtin:xor2 3 PINTYPE=IN
 |Q ITCS3181:1-bitadder 1
 AS ITCS3181:1-bitadder PINORDER=A B CIN COUT SUM
 AS ITCS3181:1-bitadder INOV_VER_REC=18:39_7-12-14
-|Q ITCS3181:c-xor21 1
-AS ITCS3181:c-xor21 PINORDER=A B Q
-AS ITCS3181:c-xor21 INOV_VER_REC=15:14_7-7-14
 AS builtin:in PINORDER=IN
 AS builtin:in IN
 AP builtin:in 1 PINTYPE=IN
 AS builtin:out OUT
 AS builtin:out PINORDER=OUT
 AP builtin:out 1 PINTYPE=OUT
-W ITCS3181:1-bitadder $1I12
-I $1I12 ITCS3181:1-bitadder A3 $1N51 $1N58 COUT S3 
-|R 18:39_7-12-14
+M builtin:xor2 $1I79
+I $1I79 builtin:xor2 $1N45 CIN B0 
+M builtin:xor2 $1I77
+I $1I77 builtin:xor2 $1N49 CIN B2 
 W ITCS3181:1-bitadder $1I10
 I $1I10 ITCS3181:1-bitadder A1 $1N47 $1N54 $1N56 S1 
 |R 18:39_7-12-14
 W ITCS3181:1-bitadder $1I9
 I $1I9 ITCS3181:1-bitadder A0 $1N45 CIN $1N54 S0 
 |R 18:39_7-12-14
-W ITCS3181:c-xor21 $1I7
-I $1I7 ITCS3181:c-xor21 CIN B1 $1N47 
-|R 15:14_7-7-14
-W ITCS3181:c-xor21 $1I8
-I $1I8 ITCS3181:c-xor21 CIN B0 $1N45 
-|R 15:14_7-7-14
 P builtin:in A0
 I A0 builtin:in A0 
 P builtin:in B0
@@ -59,12 +56,13 @@ I S2 builtin:out S2
 W ITCS3181:1-bitadder $1I11
 I $1I11 ITCS3181:1-bitadder A2 $1N49 $1N56 $1N58 S2 
 |R 18:39_7-12-14
-W ITCS3181:c-xor21 $1I6
-I $1I6 ITCS3181:c-xor21 CIN B2 $1N49 
-|R 15:14_7-7-14
 P builtin:out S3
 I S3 builtin:out S3 
-W ITCS3181:c-xor21 $1I5
-I $1I5 ITCS3181:c-xor21 CIN B3 $1N51 
-|R 15:14_7-7-14
+W ITCS3181:1-bitadder $1I12
+I $1I12 ITCS3181:1-bitadder A3 $1N51 $1N58 COUT S3 
+|R 18:39_7-12-14
+M builtin:xor2 $1I76
+I $1I76 builtin:xor2 $1N51 CIN B3 
+M builtin:xor2 $1I78
+I $1I78 builtin:xor2 $1N47 CIN B1 
 EW
