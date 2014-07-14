@@ -1,10 +1,45 @@
 | Command used:
-| c:\mentorgraphics\2004\sim\fusion\win32\bin\fusion.exe -vsm shifter-builtin.vsm -cmd 4bitShifter.cmd 
+| c:\mentorgraphics\2004\sim\fusion\win32\bin\fusion.exe -vsm 2-varmux.vsm -cmd 2-varMux.cmd 
 |
 | Typical delays in use.
 | All delays scaled by 1.
 | Design processing complete.
 | Simulation time rolled back to 0.0ns.
 | [I] Starting Vwaves process: ....
-| Simulation stopped at 1600.0ns.
-sdisplay $1N58 S0 D1 D2 S1 D3 S2 $1N38 S3 $1N65 $1N61 $1N80 C0 D0 
+| Simulation stopped at 100.0ns.
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
