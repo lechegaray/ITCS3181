@@ -6,40 +6,9 @@
 | Design processing complete.
 | Simulation time rolled back to 0.0ns.
 | [I] Starting Vwaves process: ....
-| Simulation stopped at 100.0ns.
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
-sdisplay D1 S0 OUT D2 S1 D3 $1N38 $1N36 D0 
+| Simulation stopped at 400.0ns.
+sdisplay S0 D1 S1 D2 OUT D3 $1N38 $1N36 D0 
+sdisplay S0 D1 S1 D2 OUT D3 $1N38 $1N36 D0 
+sdisplay S0 D1 S1 D2 OUT D3 $1N38 $1N36 D0 
+| [I] Closing ITC connection with the waveform tool(PID 7648)
+sdisplay S0 D1 S1 D2 OUT D3 $1N38 $1N36 D0 

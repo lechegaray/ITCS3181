@@ -1,0 +1,29 @@
+vdraw: Warning 5270: 4-bitshifter.1 com $1I4: Symbol 2-varmux has changed since component $1I4 was instantiated.
+vdraw: Warning 5270: 4-bitshifter.1 com $1I3: Symbol 2-varmux has changed since component $1I3 was instantiated.
+vdraw: Warning 5270: 4-bitshifter.1 com $1I2: Symbol 2-varmux has changed since component $1I2 was instantiated.
+vdraw: Warning 5270: 4-bitshifter.1 com $1I1: Symbol 2-varmux has changed since component $1I1 was instantiated.
+vdraw: Warning 5246: 4-bitshifter.1 com $1I6: Component $1I6, Symbol=ITCS3181:1-varmux at (1120, 620), is not connected.
+vdraw: Warning 5246: 4-bitshifter.1 com $1I4: Component $1I4, Symbol=ITCS3181:2-varmux at (620, 620), is not connected.
+vdraw: Warning 5246: 4-bitshifter.1 com $1I3: Component $1I3, Symbol=ITCS3181:2-varmux at (730, 620), is not connected.
+vdraw: Warning 5246: 4-bitshifter.1 com $1I2: Component $1I2, Symbol=ITCS3181:2-varmux at (860, 620), is not connected.
+vdraw: Warning 5246: 4-bitshifter.1 com $1I1: Component $1I1, Symbol=ITCS3181:2-varmux at (990, 620), is not connected.
+vdraw: Warning 5246: 4-bitshifter.1 com $1I5: Component $1I5, Symbol=ITCS3181:1-varmux at (480, 620), is not connected.
+vdraw: Warning 5270: 4-bitshifter.1 com $1I4: Symbol 2-varmux has changed since component $1I4 was instantiated.
+vdraw: Warning 5270: 4-bitshifter.1 com $1I3: Symbol 2-varmux has changed since component $1I3 was instantiated.
+vdraw: Warning 5270: 4-bitshifter.1 com $1I2: Symbol 2-varmux has changed since component $1I2 was instantiated.
+vdraw: Warning 5270: 4-bitshifter.1 com $1I1: Symbol 2-varmux has changed since component $1I1 was instantiated.
+vdraw: Warning 5246: 4-bitshifter.1 com $1I6: Component $1I6, Symbol=ITCS3181:1-varmux at (1120, 620), is not connected.
+vdraw: Warning 5246: 4-bitshifter.1 com $1I4: Component $1I4, Symbol=ITCS3181:2-varmux at (620, 620), is not connected.
+vdraw: Warning 5246: 4-bitshifter.1 com $1I3: Component $1I3, Symbol=ITCS3181:2-varmux at (730, 620), is not connected.
+vdraw: Warning 5246: 4-bitshifter.1 com $1I2: Component $1I2, Symbol=ITCS3181:2-varmux at (860, 620), is not connected.
+vdraw: Warning 5246: 4-bitshifter.1 com $1I1: Component $1I1, Symbol=ITCS3181:2-varmux at (990, 620), is not connected.
+vdraw: Warning 5246: 4-bitshifter.1 com $1I5: Component $1I5, Symbol=ITCS3181:1-varmux at (480, 620), is not connected.
+vdraw: Note 1138: Pin already connected to net
+vdraw: Note 1138: Pin already connected to net
+vdraw: Note 1138: Pin already connected to net
+vdraw: Note 1138: Pin already connected to net
+vdraw: Note 1066: Cannot short net
+vdraw: Note 1066: Cannot short net
+vdraw: Note 1066: Cannot short net
+vdraw: Note 1138: Pin already connected to net
+vdraw: Note 1138: Pin already connected to net

@@ -18,9 +18,6 @@ P builtin:in D1
 I D1 builtin:in D1 
 P builtin:out OUT
 I OUT builtin:out OUT 
-W ITCS3181:1-varmux $1I32
-I $1I32 ITCS3181:1-varmux $1N36 $1N38 OUT S0 
-|R 14:04_7-13-14
 W ITCS3181:1-varmux $1I16
 I $1I16 ITCS3181:1-varmux D2 D3 $1N38 S1 
 |R 14:04_7-13-14
@@ -35,4 +32,7 @@ P builtin:in S0
 I S0 builtin:in S0 
 P builtin:in S1
 I S1 builtin:in S1 
+W ITCS3181:1-varmux $1I32
+I $1I32 ITCS3181:1-varmux $1N36 $1N38 OUT S0 
+|R 14:04_7-13-14
 EW
