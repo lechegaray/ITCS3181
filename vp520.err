@@ -27,3 +27,16 @@ vdraw: Note 1066: Cannot short net
 vdraw: Note 1066: Cannot short net
 vdraw: Note 1138: Pin already connected to net
 vdraw: Note 1138: Pin already connected to net
+vdraw: Error 5231: 4-bitshifter.1 com $?: Unnamed schematic pin at (790,220).
+vdraw: Error 5231: 4-bitshifter.1 com $?: Unnamed schematic pin at (920,220).
+vdraw: Error 5231: 4-bitshifter.1 com $?: Unnamed schematic pin at (680,220).
+vdraw: Error 5231: 4-bitshifter.1 com $?: Unnamed schematic pin at (1050,220).
+vdraw: Note 1138: Pin already connected to net
+vdraw: Note 1063: No connection point found
+vdraw: Note 1063: No connection point found
+vdraw: Note 1138: Pin already connected to net
+vdraw: Note 1063: No connection point found
+vdraw: Note 1138: Pin already connected to net
+vdraw: Note 1063: No connection point found
+vdraw: Error 1093: Both pin points the same
+vdraw: Error 1093: Both pin points the same

@@ -1,36 +1,64 @@
 | Wirelist created using version 5.2.
-| Sch_Warning - Component $1I6, Symbol=ITCS3181:1-varmux at (1120, 620), is not connected.
-| Sch_Warning - Component $1I4, Symbol=ITCS3181:2-varmux at (620, 620), is not connected.
-| Sch_Warning - Component $1I3, Symbol=ITCS3181:2-varmux at (730, 620), is not connected.
-| Sch_Warning - Component $1I2, Symbol=ITCS3181:2-varmux at (860, 620), is not connected.
-| Sch_Warning - Component $1I1, Symbol=ITCS3181:2-varmux at (990, 620), is not connected.
-| Sch_Warning - Component $1I5, Symbol=ITCS3181:1-varmux at (480, 620), is not connected.
 V 5.2
 DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
 K 160425514700 4-bitshifter
 DW 4-bitshifter
+AS builtin:in PINORDER=IN
+AS builtin:in IN
+AP builtin:in 1 PINTYPE=IN
 |Q ITCS3181:1-varmux 1
 AS ITCS3181:1-varmux PINORDER=D0 D1 OUT S0
 AS ITCS3181:1-varmux INOV_VER_REC=14:04_7-13-14
 |Q ITCS3181:2-varmux 1
 AS ITCS3181:2-varmux PINORDER=D0 D1 D2 D3 OUT S0 S1
 AS ITCS3181:2-varmux INOV_VER_REC=15:07_7-14-14
+AS builtin:out OUT
+AS builtin:out PINORDER=OUT
+AP builtin:out 1 PINTYPE=OUT
+P builtin:in SLIN
+I SLIN builtin:in SLIN 
+P builtin:in D1
+I D1 builtin:in D1 
+P builtin:in D2
+I D2 builtin:in D2 
 W ITCS3181:1-varmux $1I6
-I $1I6 ITCS3181:1-varmux ? ? ? ? 
+I $1I6 ITCS3181:1-varmux D0 S0 SROUT S1 
 |R 14:04_7-13-14
-W ITCS3181:2-varmux $1I4
-I $1I4 ITCS3181:2-varmux ? ? ? ? ? ? ? 
-|R 14:18_7-13-14
-W ITCS3181:2-varmux $1I3
-I $1I3 ITCS3181:2-varmux ? ? ? ? ? ? ? 
-|R 14:18_7-13-14
-W ITCS3181:2-varmux $1I2
-I $1I2 ITCS3181:2-varmux ? ? ? ? ? ? ? 
-|R 14:18_7-13-14
+P builtin:in D3
+I D3 builtin:in D3 
+P builtin:in D0
+I D0 builtin:in D0 
 W ITCS3181:2-varmux $1I1
-I $1I1 ITCS3181:2-varmux ? ? ? ? ? ? ? 
-|R 14:18_7-13-14
+I $1I1 ITCS3181:2-varmux D0 SLIN D1 D0 Q0 S0 S1 
+|R 15:07_7-14-14
+W ITCS3181:2-varmux $1I2
+I $1I2 ITCS3181:2-varmux D1 D0 D2 D2 Q1 S0 S1 
+|R 15:07_7-14-14
+W ITCS3181:2-varmux $1I3
+I $1I3 ITCS3181:2-varmux D2 D1 D3 D2 Q2 S1 S1 
+|R 15:07_7-14-14
 W ITCS3181:1-varmux $1I5
-I $1I5 ITCS3181:1-varmux ? ? ? ? 
+I $1I5 ITCS3181:1-varmux S1 D3 SLOUT S0 
 |R 14:04_7-13-14
+P builtin:out Q0
+I Q0 builtin:out Q0 
+P builtin:out SROUT
+I SROUT builtin:out SROUT 
+P builtin:in S0
+I S0 builtin:in S0 
+P builtin:in S1
+I S1 builtin:in S1 
+P builtin:out SLOUT
+I SLOUT builtin:out SLOUT 
+W ITCS3181:2-varmux $1I4
+I $1I4 ITCS3181:2-varmux D3 D2 SRIN D3 Q3 S0 S1 
+|R 15:07_7-14-14
+P builtin:out Q1
+I Q1 builtin:out Q1 
+P builtin:out Q2
+I Q2 builtin:out Q2 
+P builtin:out Q3
+I Q3 builtin:out Q3 
+P builtin:in SRIN
+I SRIN builtin:in SRIN 
 EW

@@ -1,5 +1,5 @@
 | Command used:
-| c:\mentorgraphics\2004\sim\fusion\win32\bin\fusion.exe -vsm 2-varmux.vsm -cmd 2-varMux.cmd 
+| c:\mentorgraphics\2004\sim\fusion\win32\bin\fusion.exe -vsm 4-bitShifter.vsm -cmd 4bitShifter.cmd 
 |
 | Typical delays in use.
 | All delays scaled by 1.
@@ -7,8 +7,5 @@
 | Simulation time rolled back to 0.0ns.
 | [I] Starting Vwaves process: ....
 | Simulation stopped at 400.0ns.
-sdisplay S0 D1 S1 D2 OUT D3 $1N38 $1N36 D0 
-sdisplay S0 D1 S1 D2 OUT D3 $1N38 $1N36 D0 
-sdisplay S0 D1 S1 D2 OUT D3 $1N38 $1N36 D0 
-| [I] Closing ITC connection with the waveform tool(PID 7648)
-sdisplay S0 D1 S1 D2 OUT D3 $1N38 $1N36 D0 
+sdisplay SLOUT SRIN Q0 D1 S0 Q1 D2 S1 SLIN Q2 D3 Q3 SROUT D0 
+| [I] Closing ITC connection with the waveform tool(PID 7820)
