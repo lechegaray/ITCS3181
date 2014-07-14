@@ -1,0 +1,23 @@
+V 5.11
+|
+| Wirelist created using VIEWSIM WIRELISTER 6.08
+| Using initialization file 'c:\mentorgraphics\2004\standard\vsm.ini'
+|    Using 24 attribute filter(s)
+| Long format VIEWSIM file for project C-NOR21
+|
+DW C-NOR21 2 362690999600
+M $1I1\$1I11\$1I8 OR2 ( TPHL=3NS:6.3NS TPLH=3NS:6.6NS ) $1I1\$1I11\Y +
+ $1I1\$1I11\A $1I1\$1I11\B
+M $1I2\$1I8\$1I5 NOT ( TPHL=1.5NS:5.3NS TPLH=2.4NS:6NS ) $1I2\$1I8\Y +
+ $1I2\$1I8\A
+= $1N9 $1I1\Q
+= $1N9 $1I1\$1I11\Y
+= $1N9 $1I2\A
+= $1N9 $1I2\$1I8\A
+= D0 $1I1\A
+= D0 $1I1\$1I11\A
+= D1 $1I1\B
+= D1 $1I1\$1I11\B
+= OUT $1I2\Q
+= OUT $1I2\$1I8\Y
+WD

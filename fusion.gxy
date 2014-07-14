@@ -12,7 +12,7 @@ FG Color Enable7=0
 FG Color Enable8=0
 Horizontal Zoom Factor=0
 Window Placement=2C0000000000000001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF98000000CC0000001607000056030000F7
-Splitter Width=116
+Splitter Width=112
 Standard ToolBar=1
 Zoom ToolBar=1
 Status Bar=1
@@ -59,7 +59,7 @@ FG Color 8=255 255 255
 WaveTextColor=1
 [VCD Browser]
 Window Placement=2C0000000000000001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB8020000190000001A060000DF000000EF
-Splitter Width=431
+Splitter Width=427
 Tool Bar=0
 Status Bar=0
 [Console]
@@ -127,3 +127,5 @@ Trace List File=4-bitadder.wfm.tra
 Trace List File=4-inputExpandableShifter.wfm.tra
 [halfadder.wfm]
 Trace List File=halfadder.wfm.tra
+[c-NOR21.wfm]
+Trace List File=c-NOR21.wfm.tra

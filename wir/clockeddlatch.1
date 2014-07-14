@@ -1,0 +1,38 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 288489690800 clockeddlatch
+DW clockeddlatch
+|Q ITCS3181:c-and21 1
+AS ITCS3181:c-and21 PINORDER=A B Q
+AS ITCS3181:c-and21 INOV_VER_REC=14:44_7-7-14
+|Q ITCS3181:c-nor21 1
+AS ITCS3181:c-nor21 PINORDER=D0 D1 OUT
+AS ITCS3181:c-nor21 INOV_VER_REC=17:23_7-14-14
+AS builtin:out OUT
+AS builtin:out PINORDER=OUT
+AP builtin:out 1 PINTYPE=OUT
+AS builtin:in PINORDER=IN
+AS builtin:in IN
+AP builtin:in 1 PINTYPE=IN
+W ITCS3181:c-and21 $1I37
+I $1I37 ITCS3181:c-and21 $1N38 D1 $1N46 
+|R 14:44_7-7-14
+W ITCS3181:c-nor21 $1I14
+I $1I14 ITCS3181:c-nor21 S0 $1N46 S1 
+|R 17:23_7-14-14
+W ITCS3181:c-nor21 $1I13
+I $1I13 ITCS3181:c-nor21 $1N44 S1 S0 
+|R 17:23_7-14-14
+P builtin:out S0
+I S0 builtin:out S0 
+P builtin:out S1
+I S1 builtin:out S1 
+W ITCS3181:c-and21 $1I36
+I $1I36 ITCS3181:c-and21 D0 $1N38 $1N44 
+|R 14:44_7-7-14
+P builtin:in D0
+I D0 builtin:in D0 
+P builtin:in D1
+I D1 builtin:in D1 
+EW
